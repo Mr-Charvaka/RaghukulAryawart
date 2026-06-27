@@ -5,9 +5,9 @@ import Link from 'next/link';
 import { motion, useScroll, useTransform, useMotionValueEvent } from 'framer-motion';
 
 const DRONE_IMGS = [
-  '/images/ra-vision/S1.jpeg',
-  '/images/ra-vision/S2.jpeg',
-  '/images/ra-vision/S3.jpeg',
+  'https://images.pexels.com/photos/12716153/pexels-photo-12716153.jpeg?auto=compress&cs=tinysrgb&w=2400',
+  'https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=2400',
+  'https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg?auto=compress&cs=tinysrgb&w=2400',
 ];
 
 export function DroneSequence() {
